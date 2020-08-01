@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="imege/png" href="/images/logo.png">
+	</css/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">	<script src="https://kit.fontawesome.com/cd95702beb.js" crossorigin="anonymous"></script>
+	<title>Barberia D Ponce`s</title>
+</head>
+<body>
+	<!-- GRUPO:CABECERA(HEADER) -->
+	<header>
+
+		<!-- GRUPO:BARRA-NAVEGATION -->
+		<div class="nav">
+
+			<!-- GRUPO:LOGO -->
+			<div class="logo">
+				<img src="/images/logo.png" alt="">
+				<h1>
+					Ponce`s
+				</h1>
+			</div>
+			<i id="btn-bars" class="fas fa-bars"></i>
+			<i id="btn-bars2" class="fas fa-times"></i>
+			
+			<!-- GRUPO:NAVEGATIONS -->
+			<nav id="nav-bars">
+				<ul id="nav-ir">
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#formulario">Reservar citas</a></li>
+					<li><a href="#article3">Mis Cortes</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- GRUPO: IMAGE-TYPE-CAROUCELL-SLIDE -->
+		<div class="slide-container">
+			<i id="btn-prev" class="fa fa-angle-left" aria-hidden="true"></i>
+			<div class="slide">
+				<img src="/images/s1.jpg" alt="slide" id="lastClone">
+				<img src="/images/s2.jpg" alt="slide">
+				<img src="/images/s3.jpg" alt="slide">
+				<img src="/images/s4.jpg" alt="slide">
+				<img src="/images/s1.jpg" alt="slide" id="firstClone">
+			</div>
+			<i id="btn-next" class="fa fa-angle-right" aria-hidden="true"></i>
+			
+			<!-- GRUPO:CIRCULO-SLIDE -->
+			<div class="circle">
+				<i aria-hidden="true"></i>
+				<i aria-hidden="true"></i>
+				<i aria-hidden="true"></i>
+				<i aria-hidden="true"></i>
+				<i aria-hidden="true"></i>
+			</div>
+		</div>
+
+		<!-- GRUPO:BTN-down -->
+		<div class="btn-down" id="btn-down">
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
+			<h4>Ver más</h4>
+		</div>
+
+	</header>
+
+	<!-- ----- ----- ARTICULO1 PRESENTACION ----- ----- -->
+	<section class="container-section">
+
+		<article class="article1">
+
+			<div class="container">
+				<div class="container-perfil">
+					<img src="/images/logo-ponce.jpg" alt="">
+					<h4>Propietario y Barbero</h4>
+					<h2>Alvaro Ponce</h2>
+					<p>Hola amigo! Mi nombre es <strong>Alvaro Ponce</strong> me dedico a la <strong>Barberia</strong> desde hace ya 5 años. Tengo la experiencia necesaria para atenderlo y brindarle la mejor comodidad</p>
+					<br>
+				</div>
+
+				<div class="container-slider">
+					<img src="/images/s3.jpg" alt="mi-logo">
+				</div>
+			</div>
+			
+		</article>
+
+		<!-- ----- ----- ARTICULO2 UBICACION ----- ----- -->
+		<article class="article2">
+
+			<div class="container">
+
+				<div class="container-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2360.5699656175243!2d-79.933572886074!3d-2.199364331458651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d71bcb556d55f%3A0xeadd79b0fffd1f05!2s%22%20El%20Bolondr%C3%B3n%20%22%20Don%20Segundo!5e0!3m2!1ses-419!2sco!4v1595281965030!5m2!1ses-419!2sco" width="520" height="305" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+
+				<div class="container-perfil2">
+					<img src="/images/s1.jpg" alt="">
+					<p><strong>Direccion:</strong> Monseñor Cesar A Mosquera y 1127, Guayaquil, Ecuador</p>
+					<span class="span">Atendemos de <br>9am - 8pm</span>
+					<!-- <p>Gracias por elegirnos y ser parte de la <strong>Barberia</strong></p> -->
+				</div>
+
+			</div>
+			
+		</article>
+
+		<!-- ----- ----- ARTICULO3 GALERIA ----- ----- -->
+		<article id="article3" class="article3">
+		
+				<div class="galeria" id="galeria">
+					<div id="oculto">
+						<div id="fotos" class="fotos">
+							<i id="times" class="fas fa-times"></i>
+						</div>
+					</div>
+					<div class="arreglo-galeria">
+						<h2>Mis cortes</h2>
+						<div class="container-galeria">
+							<img src="/images/s1.jpg" alt="">
+							<img src="/images/s2.jpg" alt="">
+							<img src="/images/s3.jpg" alt="">
+						</div>
+					</div>
+					<div class="arreglo-galeria">
+						<div class="container-galeria">
+							<img src="/images/s1.jpg" alt="">
+							<img src="/images/s2.jpg" alt="">
+							<img src="/images/s3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+		</article>
+	</section>
+
+	<!-- FORMULARIO -->
+	<form action="" class="formulario" id="formulario" method="post">
+
+		<!-- GRUPO:NOMBRE -->
+		<div class="formulario__grupo" id="grupo__usuario">
+			<label for="usuario" class="formulario__label">Nombre</label>
+			<div class="formulario__grupo-input">
+				<input type="text" placeholder="Nombre" class="formulario__input" name="usuario" id="usuario">
+				<i class="formulario__validacion-estado fas fa-times-circle"></i>
+			</div>
+			<p class="formulario__input-error">El nombre del usuario tiene que ser de 4 a 16 digito y solo puede contener numeros, letras y guiones bajo.</p>
+		</div>
+
+		<!-- GRUPO:EMAIL -->
+		<div class="formulario__grupo" id="grupo__email">
+			<label for="email" class="formulario__label">Correo Electronico</label>
+			<div class="formulario__grupo-input">
+				<input type="email" required="true" placeholder="Tu Correo@Correo.com" class="formulario__input" name="email" id="email">
+				<i class="formulario__validacion-estado fas fa-times-circle"></i>
+			</div>
+			<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guiones bajo.</p>
+		</div>
+
+		<!-- GRUPO:SERVICIOS -->
+		<div class="formulario__grupo" id="grupo__servicios">
+			<label for="servicios" class="formulario__label">Servicios</label>
+			<div class="formulario__grupo-input">
+				<input list="servicio" placeholder="Mis Servicios" class="formulario__input" name="servicios" id="servicios">
+				<datalist id="servicio">
+					<option value="corte normal">$2.50</option>
+					<option value="corte con cero">$3.00</option>
+					<option value="corte con cuchilla">$3.50</option>
+					<option value="corte y barba">$4.50</option>
+					<option value="corte y figuras">$5.00</option>
+				</datalist>
+				<i class="formulario__validacion-estado fas fa-times-circle"></i>
+			</div>
+			<p class="formulario__input-error">Elige un servicio.</p>
+		</div>
+
+		<!-- GRUPO:HORA -->
+		<div class="formulario__grupo" id="grupo__hora">
+			<label for="hora" class="formulario__label">Hora disponibles</label>
+			<div class="formulario__grupo-input">
+				<input type="time" class="formulario__input" name="hora" id="hora">
+				<i class="formulario__validacion-estado fas fa-times-circle"></i>
+			</div>
+			<p class="formulario__input-error">La esta hora no esta <strong>disponible</strong>.</p>
+		</div>
+
+		<!-- GRUPO:TERMINO Y CONDICIONES -->
+		<div class="formulario__grupo" id="grupo__terminos">
+			<label class="formulario__label">
+				<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+				Acepto los terminos y condiciones.
+			</label>
+		</div>
+
+		<!-- GRUPO:MENSAJE -->
+		<div class="formulario__mensaje" id="formulario__mensaje">
+			<p><i class="fas fa-exclamation-triangle"></i><b>Error:</b> Por favor rrellene todos los datos</p>
+		</div>
+
+		<!-- GRUPO:BTN-ENVIAR -->
+		<div class="formulario__grupo formulario__grupo-btn-enviar">
+			<button type="submit" class="formulario__btn">Enviar</button>
+			<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Cita agendada Exitosamente!</p>
+		</div>
+	</form>
+
+	<!-- pie de pagina -->
+	<footer class="footer">
+		<div class="sobre">
+			<p><span>Pagina creada por Dominyel.Dev </span><br> <hr> @Derechos reservados</p>
+		</div>
+		<div class="redes">
+			Sigueme en mis redes
+			<ul>
+				<li><a href="https://www.facebook.com/"><img src="/images/icons8-facebook.svg" alt="Facebook"></a></li>
+				<li><a href="https://www.instagram.com/?hl=es-la"><img src="/images/icons8-instagram.svg" alt="Instagram"></a></li>
+				<li><a href=""><img src="/images/icons8-peluquero-96.png" alt="icono"></a></li>
+			</ul>
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/cd95702beb.js" crossorigin="anonymous"></script>
+	<script src="/js/function.js"></script>
+</body>
+</html>
