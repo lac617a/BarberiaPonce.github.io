@@ -760,6 +760,7 @@ strong{
 		width: 170px;
 	}
 }
+
 @media screen and (max-width:400px){
 	.nav .logo h1{
 		font-size: 44px;
