@@ -808,7 +808,7 @@ strong{
 
 @media screen and (max-width:360px){
 	.container .container-perfil{
-		height: 370px;
+		height: 380px;
 	}
 
 	.nav a{
@@ -824,5 +824,11 @@ strong{
 		transform: rotate(-10deg);
 		font-size: 45px;
 		color: rgba(0, 0, 0, 0.4);
+	}
+	.footer .sobre p{
+		font-size: 20px;
+	}
+	.footer .sobre{
+		width: 120px;
 	}
 }
