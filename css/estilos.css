@@ -761,6 +761,47 @@ strong{
 	}
 }
 
+@media screen and (max-width:500px){
+
+	.nav a{
+		margin: 30px;
+		display: block;
+		text-align: center;
+		font-size: 50px;
+		box-shadow: 15px 0px 15px 0px rgba(0, 0, 0, .3);
+	}
+
+	.nav a:hover{
+		transition: all 0.5s ease-in-out;
+		transform: rotate(-5deg);
+		color: rgba(0, 0, 0, 0.4);
+	}
+
+	.nav .logo h1{
+		font-size: 44px;
+		position: relative;
+		top: 10px;
+	}
+
+	.slide-container{
+		position: relative;
+		top: 60px;
+		width: 100%;
+		height: 100%;
+	}
+	.slide-container .slide img{
+		width: 100%;
+	}
+
+	.container .container-perfil p{
+		font-size: 20px;
+	}
+
+	.container .container-perfil{
+		height: 320px;
+	}
+}
+
 @media screen and (max-width:400px){
 	.nav .logo h1{
 		font-size: 44px;
@@ -778,9 +819,14 @@ strong{
 		width: 100%;
 	}
 
+	.container .container-perfil p{
+		font-size: 20px;
+	}
+
 	.container .container-perfil{
 		height: 350px;
 	}
+
 
 	/* ----- ----- ARTICULO3 GALERIA MEDIAQUERIES ----- ----- */
 	.container-galeria{
@@ -808,12 +854,12 @@ strong{
 }
 
 @media screen and (max-width:360px){
-	.container .container-perfil{
-		height: 380px;
+	.container .container-perfil p{
+		font-size: 18px;
 	}
 
 	.nav a{
-		margin: 15px;
+		margin: 20px;
 		display: block;
 		text-align: center;
 		font-size: 40px;
@@ -823,13 +869,6 @@ strong{
 	.nav a:hover{
 		transition: all 0.5s ease-in-out;
 		transform: rotate(-10deg);
-		font-size: 45px;
 		color: rgba(0, 0, 0, 0.4);
-	}
-	.footer .sobre p{
-		font-size: 20px;
-	}
-	.footer .sobre{
-		width: 120px;
 	}
 }
