@@ -12,7 +12,7 @@ body{
 header{
 	margin: 0;
 	/* IMAGE MAIN OF BACKGROUND */
-	background-image: url('/images/268682.jpg' );
+	background-image: url('../images/268682.jpg' );
 	height: 637px;
 	width: 100%;
 	background-size: cover;
@@ -300,7 +300,7 @@ strong{
 
 /* ----- ----- ARTICULO 3 GALERIA ----- ----- */
 .article3{
-	background-image: url('/images/224553-P1BLC8-303.jpg');
+	background-image: url('../images/224553-P1BLC8-303.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	height: 700px;
