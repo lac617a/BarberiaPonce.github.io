@@ -304,12 +304,12 @@ function ver_galeria(){
 	const img = document.createElement('img');
 	let vectorLista = Array();
 
-	vectorLista[0] = '/images/s1.jpg';
-	vectorLista[1] = '/images/s2.jpg';
-	vectorLista[2] = '/images/s3.jpg';
-	vectorLista[3] = '/images/s1.jpg';
-	vectorLista[4] = '/images/s2.jpg';
-	vectorLista[5] = '/images/s3.jpg';
+	vectorLista[0] = 'images/s1.jpg';
+	vectorLista[1] = 'images/s2.jpg';
+	vectorLista[2] = 'images/s3.jpg';
+	vectorLista[3] = 'images/s1.jpg';
+	vectorLista[4] = 'images/s2.jpg';
+	vectorLista[5] = 'images/s3.jpg';
 
 	for(let contador = 0; contador <= container_galeria.length; contador++){
 		container_galeria[contador].addEventListener('click',()=>{
