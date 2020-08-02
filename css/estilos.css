@@ -871,4 +871,29 @@ strong{
 		transform: rotate(-10deg);
 		color: rgba(0, 0, 0, 0.4);
 	}
+
+	/* ----- ----- ARTICULO3 GALERIA MEDIAQUERIES ----- ----- */
+	.container-galeria{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		
+	}
+
+	.container-galeria img{
+		height: 120px;
+		width: 80px;
+	}
+	
+	.container-galeria img:hover{
+		transform: none;
+		height: 150px;
+		width: 100px;
+	}
+
+	.footer .sobre{
+		width: 250px;
+	}
+	.footer .sobre strong{
+		color: beige;
+	}
 }
