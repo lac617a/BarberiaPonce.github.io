@@ -12,7 +12,7 @@ body{
 header{
 	margin: 0;
 	/* IMAGE MAIN OF BACKGROUND */
-	background-image: url('images/268682.jpg' );
+	background-image: url('../images/268682.jpg' );
 	height: 637px;
 	width: 100%;
 	background-size: cover;
