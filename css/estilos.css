@@ -800,6 +800,31 @@ strong{
 	.container .container-perfil{
 		height: 320px;
 	}
+
+	/* ----- ----- ARTICULO3 GALERIA MEDIAQUERIES ----- ----- */
+	.container-galeria{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		
+	}
+
+	.container-galeria img{
+		height: 150px;
+		width: 150px;
+	}
+	
+	.container-galeria img:hover{
+		transform: none;
+		height: 150px;
+		width: 130px;
+	}
+
+	.footer .sobre{
+		width: 200px;
+	}
+	.footer .sobre strong{
+		color: beige;
+	}
 }
 
 @media screen and (max-width:400px){
@@ -850,6 +875,17 @@ strong{
 	}
 	.footer .sobre strong{
 		color: beige;
+	}
+
+	.footer .sobre{
+		width: 250px;
+	}
+	.footer .sobre strong{
+		color: beige;
+	}
+
+	.footer .sobre p{
+		font-size: 20px;
 	}
 }
 
