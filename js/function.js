@@ -152,11 +152,31 @@ function caroucell(){
 		// REPETIDOR DE IMAGENES CAROUCELL(PREV)
 		if(actico_prev){
 
-			slide.style.transition = 'transform 0s';
-			slide.style.transform = 'translate(-2800px)';
-			num = images.length - 1;
-			circle_i[num].style.backgroundColor = 'beige';
-			actico_prev = false;
+			if(window.innerWidth >= 1000){
+				slide.style.transition = 'transform 0s';
+				slide.style.transform = 'translate(-2800px)';
+				num = images.length - 1;
+				circle_i[num].style.backgroundColor = 'beige';
+				actico_prev = false;
+			}
+
+			if(window.innerWidth <= 900){
+
+				slide.style.transition = 'transform 0s';
+				slide.style.transform = 'translate(-2800px)';
+				num = images.length - 1;
+				circle_i[num].style.backgroundColor = 'beige';
+				actico_prev = false;
+			}
+
+			if(window.innerWidth <= 360){
+
+				slide.style.transition = 'transform 0s';
+				slide.style.transform = 'translate(-1440px)';
+				num = images.length - 1;
+				circle_i[num].style.backgroundColor = 'beige';
+				actico_prev = false;
+			}
 		}
 	});
 };
