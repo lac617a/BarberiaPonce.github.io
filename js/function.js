@@ -169,7 +169,7 @@ function caroucell(){
 				actico_prev = false;
 			}
 
-			if(window.innerWidth <= 360){
+			if(window.innerWidth <= 460){
 
 				slide.style.transition = 'transform 0s';
 				slide.style.transform = 'translate(-1440px)';
